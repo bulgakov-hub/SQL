@@ -752,7 +752,7 @@ $$ LANGUAGE plpgsql;
 
 SELECT * FROM get_price_boundaries();
 
--- Скложение
+-- Сложение
 CREATE OR REPLACE FUNCTION get_sum(x int, y int, out result int) AS $$
 BEGIN
 	result := x + y;
